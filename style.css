@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#word, #length {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#history {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 0;
+}
+
+#history li {
+    padding: 5px 0;
+}
+
+#history li.isword {
+    color: green;
+}
+
+#history li.isnotword {
+    color: red;
+}
